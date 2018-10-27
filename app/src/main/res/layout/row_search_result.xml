@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginBottom="16dp">
+
+    <TextView android:id="@+id/tvReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="とびだす"
+        android:textSize="12sp"/>
+
+    <TextView android:id="@+id/tvFirstForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="飛び出す"/>
+
+    <TextView android:id="@+id/tvMeaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="To Launch"
+        android:layout_marginTop="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
